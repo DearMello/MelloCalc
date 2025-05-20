@@ -4,6 +4,8 @@ class MelloCalc
 {
     static void Main()
     {
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
+
         Console.WriteLine("MelloCalc kalkulyatoruna xoş gəlmisiniz!");
 
         Console.Write("Birinci ədədi daxil edin: ");
